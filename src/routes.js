@@ -5,6 +5,7 @@ const fs = require('fs');
 const routes = express.Router();
 
 let url = 'http://pets-images.dev-apis.com/pets';
+
 routes.get('/', (req, res) => {
   const { id } = req.params;
 
